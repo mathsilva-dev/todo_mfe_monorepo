@@ -1,16 +1,21 @@
-# todo_mfes
+# To-Do with MFEs and Clean Arch
 
-A new Flutter project.
+This is a to-do app example with a micro front-ends and clean architecture.
 
-## Getting Started
+## What is MFEs?
 
-This project is a starting point for a Flutter application.
+This project have MFEs in a monorepo strategy. The MFEs means `Micro Front-Ends`. It is a way to split the front-end application into small parts, which can be developed, tested, and deployed independently if you want. This approach can help you to scale your front-end application.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Only run the main.dart file in the `lib` folder, like any other Flutter project.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependency Injection and Navigation
+
+This project uses the `flutter_modular` package to manage the dependency injection and navigation. You can see more details about the package [here](https://modular.flutterando.com.br/docs/flutter_modular/start/).
+
+## Architecture
+
+You can see more details about the architecture here:
+
+- [To-Do with Clean Arch](https://github.com/mathsilva-dev/todo_monolith)
